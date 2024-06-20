@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.first{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url("https://www.royalcaribbean.com/blog/wp-content/uploads/2017/10/Turnaround-Day-Header-e1622748471691.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+nav{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+ justify-content: space-between;
+    width: 100%;
+    padding: 30px;
+    
+}
+
+#the{
+    margin-left: 70%;
+}
+.dom{
+    margin-left: 5%;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-weight: bolder;
+    color: white;
+}
+.dom:hover{
+    border-bottom: 4px solid black;
+}
+
+/* ............................ */
+
+h1{
+    text-align: center;
+    margin-top: 15%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 50px;
+    color: white;
+}
+.hub{
+    margin-left: 45%;
+   text-decoration: none;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: black;
+   border: 2px solid rgb(0, 0, 0);
+   padding: 10px 30px;
+   font-weight: bolder;
+   border-radius: 10px;
+   color: white;
+   transition-duration: 1ms;
+
+  
+}
+.hub:hover{
+    background-color: white;
+    color: black;
+    border: none;
+}
+.sec{
+   height: 50vh;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3039331f-4c4e-42fe-8783-274662580ece/d4n715r-5b3ffb20-57e6-4889-89eb-f8da6d2eb5df.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzMwMzkzMzFmLTRjNGUtNDJmZS04NzgzLTI3NDY2MjU4MGVjZVwvZDRuNzE1ci01YjNmZmIyMC01N2U2LTQ4ODktODllYi1mOGRhNmQyZWI1ZGYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.J_9fEE22ATBCni-bMAYxkXou0Kqxaoo0MrV0SyW2cNA");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+h3{
+    color:white;
+    text-align: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    
+     
+}.vob{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+   
+}
+img{
+    width: 30%;
+    margin-top: 20px;
+    border-radius: 20px;
+}
